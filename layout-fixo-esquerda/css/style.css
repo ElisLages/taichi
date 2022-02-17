@@ -1,0 +1,233 @@
+* { 
+    padding: 0px;
+    margin: 0px;
+}
+
+/* GERAL */
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #f55959;
+}
+
+.container {
+    background-color: #e93f3f;
+    display: flex;
+    width: 900px;
+    height: 95%;
+    background-image: url("../../taichi/images/wbg.jpg");
+    background-attachment: fixed;
+}
+
+.left-side {
+    background-color: #f03a3a;
+      width: 250px;
+      height: 650px;
+}
+
+.nav-main {
+    text-align: center;
+}
+
+.navbar {
+    padding: 50px;
+    line-height: 50px;
+    margin: 20px;
+    list-style-type: none;
+}
+
+.circle-img {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #f26a63;
+    border: 30px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ #img-logo {
+    width: 130px;
+}
+
+.nav-item {
+    text-transform: uppercase;
+    color: #f7f7f7;
+    text-decoration: solid;
+    list-style-type: none;
+    text-align: center;
+    /* margin-bottom: 50px; espaçamento entre linhas -não está funcionando*/
+    letter-spacing: 3px;
+}
+
+.nav-item:hover {
+    color:#f26a63;
+      text-decoration: underline;
+}
+.header {
+    background-color: #f03a3a;
+      padding: 20px;
+      text-align: center;
+      letter-spacing: 3px;
+      color: white;
+      text-transform: uppercase;
+}
+
+.main {
+    width: 650px;
+}
+
+.title {
+    font-family: 'Verdana', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 40px;
+    color: rgb(224, 127, 127);
+}
+
+/* ÍNICIO - BEM VINDO */
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-img {
+    margin: 30px;
+    background-color: #f26a63;
+    border: 10px;
+}
+
+.box-img img {
+    padding-left: 40px;
+    margin: 10px;     
+}
+
+/* ÍNICIO - DESTAQUES  */
+.cards {
+    background-color: #f26a63;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 300px;
+    float: left;
+    border: 10px;
+}
+
+.legend-title {
+    color: seashell;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+p {
+    color: whitesmoke;
+    text-align: center;
+}
+
+/* CARDÁPIO */
+
+.hr-little {
+    width: 150px;
+    margin-left: 20px;
+    
+}
+
+.cards-menu {
+    background-color: #f26a63;     
+    height: 380px;
+    border: 10px;
+    
+} 
+
+.cards-img {
+    margin: 10px;
+    float: left;
+}
+
+.price {
+    text-align: center;
+    font-weight: bold;
+}
+
+.cards-menu {
+    background-color: #f26a63;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 380px;
+    float: left;
+    border: 10px;
+}
+
+
+/* CONTATO E LOCALIZAÇÃO */
+
+.form-contact{
+    margin: 20px;
+}
+
+.form-title {
+    margin: 10px;
+    color:black;
+    font-weight: bold;
+    background-color: #ffc6c6;
+    border: 5px;
+}
+
+fieldset {
+    background-color: #ffb1b1;
+    border: 10px;
+    border: black;
+}
+
+form p input {
+    color: black;
+    background-color: #F1E7E7;
+    width: 300px;
+    margin: 7px;
+    border: 5px;
+}
+
+input#mensagem {
+    height: 70px;
+}
+
+input[type="text"], input[type="email"] {
+    height: 30px;
+    margin-left: 130px;
+}
+
+input[type=submit] {
+    display: block;
+    margin: 20px auto;
+    padding: 5px;
+    background-color: #ffc6c6;
+    border: 5px;
+}
+
+input[type=submit]:hover {
+    background-color: #ffc6c6;
+    color: #F1E7E7;
+}
+
+
+pre, p {
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+    font-family: 'Verdana', sans-serif;
+    color: whitesmoke;
+}
+
+.text{
+    display: block;
+    margin: 20px auto;
+    padding: 5px;
+    background-color: #f03a3a;
+    border: 5px;
+}
